@@ -1,0 +1,7 @@
+{
+  "name": "Road Damage Detection & Severity Analysis",
+  "description": "Pavement distress detection, automated severity assessment, Supabase logging, and live telemetry analytics for municipal and infrastructure maintenance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

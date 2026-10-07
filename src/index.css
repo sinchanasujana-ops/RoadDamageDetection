@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-asphalt: #1b1c1e;
+    --color-asphalt-light: #26282b;
+    --color-concrete: #eceae3;
+    --color-concrete-card: #f5f4ef;
+    --color-concrete-border: #dedad0;
+    --color-road-yellow: #f5c518;
+    --color-sev-low: #3fa564;
+    --color-sev-medium: #e0a13a;
+    --color-sev-high: #d94f45;
+  }
+
+  body {
+    background-color: #eceae3;
+    color: #1b1c1e;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: 0.02em;
+  }
+
+  .font-mono, code, kbd, samp, .font-data {
+    font-family: 'IBM Plex Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Road marking dashed divider motif */
+.road-marking-divider {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #f5c518 0px,
+    #f5c518 16px,
+    transparent 16px,
+    transparent 28px
+  );
+  height: 3px;
+  width: 100%;
+}
+
+.road-marking-divider-vertical {
+  background-image: repeating-linear-gradient(
+    180deg,
+    #f5c518 0px,
+    #f5c518 14px,
+    transparent 14px,
+    transparent 24px
+  );
+  width: 3px;
+  height: 100%;
+}
